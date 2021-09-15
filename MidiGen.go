@@ -12,8 +12,6 @@ import (
 	"gitlab.com/gomidi/midi/writer"
 )
 
-type printer struct{}
-
 func main() {
 	rand.Seed(time.Now().UnixNano())
 	var (
