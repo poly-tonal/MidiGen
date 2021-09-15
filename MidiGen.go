@@ -22,6 +22,7 @@ func main() {
 		Rerr     error
 	)
 	//number of notes to generate
+	fmt.Printf("How many notes would you like to generate?\n")
 	fmt.Scanln(&input)
 	if input == "0" || input == "" {
 		numNotes = rand.Intn(10)
